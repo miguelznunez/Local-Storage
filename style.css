@@ -1,0 +1,44 @@
+body{
+  background-color: lightsalmon;
+}
+
+.container{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.to-do-app{
+  width: 300px;
+  padding: 0 20px 20px 20px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+}
+
+.to-do-app input{
+  width: 95%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.to-do-app button{
+  width: fit-content;
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.to-do-app button:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+li{
+  font-size: 1.5rem;
+}
